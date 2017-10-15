@@ -16,7 +16,7 @@ namespace Никому_не_нужная_бд
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Main_form());
         }
     }
 }
