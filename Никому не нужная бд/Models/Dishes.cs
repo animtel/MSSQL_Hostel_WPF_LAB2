@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Никому_не_нужная_бд.Models
 {
-    class Bludo
+    class Dishes
     {
-        public List<string> bludo_name;
-        public List<int> cost;
+        public string bludo_name;
+        public int cost;
     }
 }

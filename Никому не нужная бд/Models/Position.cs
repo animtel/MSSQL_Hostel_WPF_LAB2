@@ -9,9 +9,9 @@ namespace Никому_не_нужная_бд.Models
     class Position
     {
 
-        public List<DateTime> time;
-        public List<int> iD_pers;
-        public List<int> id_position;
-        public List<string> last_bludo;
+        public DateTime time;
+        public int iD_pers;
+        public int id_position;
+        public string last_bludo;
     }
 }

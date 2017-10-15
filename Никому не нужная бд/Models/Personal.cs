@@ -5,9 +5,9 @@ namespace Никому_не_нужная_бд
 {
     public class Personal
     {
-        public List<string> FIO;
-        public List<int> iD_pers;
-        public List<int> id_position;
-        public List<int> age;
+        public string FIO;
+        public int iD_pers;
+        public int id_position;
+        public int age;
     }
 }
