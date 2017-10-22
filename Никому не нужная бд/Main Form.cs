@@ -38,16 +38,17 @@ namespace Никому_не_нужная_бд
 
         private void saveAllChangeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            personalTableAdapter.Update(cafeDataSet);
-            recipesTableAdapter.Update(cafeDataSet);
-            dishesTableAdapter.Update(cafeDataSet);
-            pozitionsTableAdapter.Update(cafeDataSet);
+            
+            personalTableAdapter.Update(cafeDataSet.Personal);
+            
             Main_Table.ReadOnly = true;
         }
 
         private void startChangeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            personalTableAdapter.Insert(5, "wqrr", 243);
             Main_Table.ReadOnly = false;
+            
         }
 
         private void comboBox1_TextUpdate(object sender, EventArgs e)
