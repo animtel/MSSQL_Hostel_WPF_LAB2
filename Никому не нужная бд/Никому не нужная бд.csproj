@@ -129,10 +129,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cafe.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Cafe_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Cafe.mdf</DependentUpon>
     </Content>
   </ItemGroup>
